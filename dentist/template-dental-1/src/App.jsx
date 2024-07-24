@@ -8,7 +8,7 @@ import Hero from "./components/Hero";
 function App() {
   return (
     <>
-      <main className="">
+      <main>
         <Header />
         <Hero />
       </main>
