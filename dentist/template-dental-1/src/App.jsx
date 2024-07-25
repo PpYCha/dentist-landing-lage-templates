@@ -4,6 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import HeroDivider from "./components/HeroDivider";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <main>
         <Header />
         <Hero />
+        <HeroDivider />
       </main>
     </>
   );

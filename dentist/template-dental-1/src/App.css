@@ -105,3 +105,14 @@
   font-weight: 900;
   font-style: italic;
 } */
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(
+      calc(-100% - 1rem)
+    ); /* Adjust according to your design */
+  }
+}

@@ -3,6 +3,7 @@ import ListCheck from "./ListCheck";
 import AddToCartButton from "./AddToCartButton";
 import ListStats from "./ListStats";
 import HeroImage from ".././assets/images/pexels-shiny-diamond-3762437 2.png";
+import HeroTestimony from "./HeroTestimony";
 
 const Hero = () => {
   return (
@@ -110,7 +111,7 @@ const Hero = () => {
         <AddToCartButton />
       </div>
 
-      <div className="mt-5">
+      <div className="mt-5 relative">
         <ul className="px-5">
           <ListStats
             svg={
@@ -204,6 +205,7 @@ const Hero = () => {
         </ul>
 
         <img src={HeroImage} alt="" className="" />
+        <HeroTestimony />
       </div>
     </div>
   );
