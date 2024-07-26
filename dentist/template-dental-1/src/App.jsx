@@ -5,6 +5,9 @@ import "./App.css";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import HeroDivider from "./components/HeroDivider";
+import SeeResult from "./components/SeeResult";
+import NoMoreSile from "./components/NoMoreSile";
+import SeeResultsCategory from "./components/SeeResultsCategory";
 
 function App() {
   return (
@@ -13,6 +16,12 @@ function App() {
         <Header />
         <Hero />
         <HeroDivider />
+        <SeeResult />
+        <hr />
+        <NoMoreSile />
+        <hr />
+        <SeeResultsCategory />
+        <hr />
       </main>
     </>
   );
